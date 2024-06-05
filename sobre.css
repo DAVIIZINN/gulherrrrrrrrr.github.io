@@ -1,0 +1,968 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-image: url(assets/sobre.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: 1px solid red; */
+}
+
+.blu {
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vitor.revu {
+    height: 80px;
+    opacity: 100%;
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.vitor.revu .hea3 UL LI {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vitor.revu .vrau100 a {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vitor.revu .vrau200 a {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vitor.revu .vrau300 a {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vitor.revu .vrau300 a {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vrau300 a:hover {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vitor.revu .teta ul li {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.vitor {
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    /* border: 1px solid red;
+    border: 4px solid blue; */
+}
+
+.vitor.revu a {}
+
+.PRINCIPAL {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mover a img {
+    height: 110px;
+    display: flex;
+    text-align: right;
+    width: 110px;
+}
+
+.mover {
+    display: flex;
+    width: 110px;
+}
+
+.todos1 {
+    display: flex;
+    text-decoration: none;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos1 a {
+    display: flex;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-align: left;
+    justify-content: center;
+    position: relative;
+}
+
+.boas-praticas {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+nav {}
+
+nav li a {
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boas-praticas li a:hover {}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+}
+
+.vrau {
+    width: 170px;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.vrau a {
+    height: 48px;
+    width: 120px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.dropdown {
+    height: 75px;
+    list-style: none;
+}
+
+.dropdown-menu i {
+    margin-top: 20px;
+    color: #3524cf;
+}
+
+.dropdown-menu a {
+    height: 40px;
+    width: 170px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.boas {}
+
+.boas.dropdown {}
+
+.boas li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu2 {
+    position: absolute;
+    display: none;
+}
+
+.dropdown-menu2 a {
+    height: 10px;
+}
+
+.dropdown2 {
+    height: 45px;
+    width: 130px;
+}
+
+.dropdown2 a {
+    width: 120px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.dropdown-menu2 i {
+    color: #3524cf;
+    margin-top: 20px;
+}
+
+.dropdown-menu2 a {
+    height: 40px;
+    width: 120px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu2 a:hover {
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.dropdown2:hover .dropdown-menu2 {
+    display: block;
+}
+
+.boas.dropdown3 {}
+
+.boas3 li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu3 {
+    position: absolute;
+    display: none;
+}
+
+.dropdown-menu3a {
+    height: 10px;
+}
+
+.dropdown3 {
+    height: 70px;
+    width: 130px;
+    display: flex;
+}
+
+.dropdown3 a {
+    height: 75px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-menu3 i {
+    color: #3524cf;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.dropdown-menu3 a {
+    height: 50px;
+    width: 150px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    line-height: 18px;
+    font-size: 13px;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu3 a:hover {
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.dropdown3:hover .dropdown-menu3 {
+    display: block;
+}
+
+.dropdown-menu3:hover {}
+
+.boas4 {}
+
+.boas.dropdown4 {}
+
+.boas4 li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu4 {
+    position: absolute;
+    display: none;
+}
+
+.dropdown-menu4 a {
+    height: 10px;
+    justify-content: center;
+}
+
+.dropdown4 {
+    height: 70px;
+    width: 140px;
+}
+
+.dropdown4 a {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.dropdown-menu4 a {
+    height: 70px;
+    width: 140px;
+    display: block;
+    color: black;
+    box-shadow: 0 0 2px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown4:hover .dropdown-menu4 {
+    display: block;
+}
+
+.hea3 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 170px;
+}
+
+.hea3 :hover {}
+
+.hea3 ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hea3 ul li {
+    height: 45px;
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+
+.hea3 ul li:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.hea3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.hea3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    flex-direction: column;
+    display: flex;
+}
+
+.hea3 :hover {
+    width: 170px;
+}
+
+.hea3 p:hover {}
+
+.bel {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.xereca {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+nav {}
+
+nav li a {
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.XERECA P {}
+
+.dropdown-menu100 {
+    position: absolute;
+    display: none;
+}
+
+.vrau100 {
+    width: 170px;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.vrau100 a {
+    height: 48px;
+    width: 165px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 2px SOLID white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vrau100 a:hover {
+    width: 170px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.dropdown100 {
+    height: 75px;
+    list-style: none;
+}
+
+.vrau100 a:hover {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu100 i {
+    margin-top: 20px;
+    color: #3524cf;
+}
+
+.dropdown-menu100 a {
+    height: 40px;
+    width: 160px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu100 a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.dropdown100:hover .dropdown-menu100 {
+    display: block;
+}
+
+.XERECA P {}
+
+.dropdown-menu100 {
+    position: absolute;
+    display: none;
+}
+
+.vrau100 {
+    width: 170px;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.vrau100 a {
+    height: 48px;
+    width: 165px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 2px SOLID white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vrau100 a:hover {
+    width: 170px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.dropdown100 {
+    height: 75px;
+    list-style: none;
+}
+
+.vrau100 a:hover {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu100 i {
+    margin-top: 20px;
+    color: #3524cf;
+}
+
+.dropdown-menu100 a {
+    height: 40px;
+    width: 160px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu100 a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.dropdown100:hover .dropdown-menu100 {
+    display: block;
+}
+
+.xereca li a:hover {
+    /* background-color: red; */
+}
+
+.XERECA200 P {}
+
+.dropdown-menu200 {
+    position: absolute;
+    display: none;
+}
+
+.vrau200 {
+    width: 170px;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.vrau200 a p {
+    font-size: 8px;
+}
+
+.vrau200 a {
+    height: 48px;
+    width: 165px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15spx;
+    border: 2px SOLID white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vrau200 a:hover {
+    width: 170px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.dropdown200 {
+    height: 75px;
+    /* border: 1px solid red; */
+    list-style: none;
+}
+
+.vrau200 a:hover {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu200 i {
+    margin-top: 20px;
+    color: #3524cf;
+}
+
+.dropdown200:hover {}
+
+.dropdown-menu200 a {
+    height: 40px;
+    width: 160px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu200 a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000, #333333, #666666, #999999, #cccccc);
+}
+
+.dropdown200:hover .dropdown-menu200 {
+    display: block;
+}
+
+.XERECA300 P {}
+
+.dropdown-menu300 {
+    position: absolute;
+    display: none;
+}
+
+.vrau300 {
+    width: 170px;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.vrau300 a p {
+    font-size: 8px;
+}
+
+.vrau300 a {
+    height: 48px;
+    width: 165px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15spx;
+    border: 2px SOLID white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* line-height: 19px; */
+}
+
+.vrau300 a:hover {
+    width: 170px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.dropdown300 {
+    height: 75px;
+    /* border: 1px solid red; */
+    list-style: none;
+}
+
+.vrau300 h3:hover {
+    background: linear-gradient(to right, #000000, #0f0a3c);
+}
+
+.dropdown-menu300 i {
+    margin-top: 20px;
+    color: #3524cf;
+}
+
+.dropdown300:hover {}
+
+.dropdown-menu300 h3 {
+    height: 44px;
+    width: 160px;
+    display: block;
+    color: white;
+    box-shadow: 0 0 2px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, #000000, #0f0a3c);
+    /* border: 1px solid red; */
+    line-height: 17px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+}
+
+.dropdown-menu300 h3:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.dropdown300:hover .dropdown-menu300 {
+    display: block;
+}
+
+.evento-js {
+    width: 850px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 540px;
+    /* border: 1px solid red; */
+}
+
+.evento-js h4 {
+    /* border: 1px solid red; */
+    width: 620px;
+    height: 60px;
+    color: orange;
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.rou {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    /* border: 1px solid red; */
+}
+
+.evento-js h1 {
+    height: 140px;
+    font-size: 35px;
+    width: 620px;
+    color: orange;
+}
+
+.evento-js h3 {
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 620px;
+    color: white;
+    /* border: 1px solid red; */
+    justify-content: end;
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+}
+
+.fft {
+    display: flex;
+    height: 60px;
+    width: 590px;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 15px;
+    justify-content: end;
+    align-items: end;
+}
+
+.fft li {
+    width: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+}
+
+.fft i {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.pow {
+    display: flex;
+    height: 40px;
+    width: 590px;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 15px;
+    justify-content: end;
+    align-items: end;
+}
+
+.pow li {
+    width: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+}
+
+.pow i {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.how {
+    height: 100px;
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-right: 360px;
+}
+
+.how a {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    /* position: absolute; */
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.how h1 a {
+    color: white;
+}
+
+.how a:hover {
+    width: 320px;
+    transition: 0.5s;
+    /* width: 330px;
+    text-align: center;
+    justify-content: center;
+    transition: 0.6s;
+    position: absolute; */
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+}
+
+.guizao {
+    border-radius: 8px;
+    height: 390px;
+    width: 220px;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #000000, #000033);
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome1 {
+    font-size: 16px;
+    color: white;
+}
+
+.nome2 {
+    font-size: 16px;
+    color: white;
+}
+
+.nome3 {
+    font-size: 16px;
+    color: white;
+}
+
+.nome4 {
+    font-size: 16px;
+    color: white;
+}
+
+.botao {
+    font-size: 14px;
+    border-radius: 9px;
+    padding: 8px;
+}
+
+.botao:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.823);
+}
